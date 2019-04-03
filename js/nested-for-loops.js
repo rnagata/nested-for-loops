@@ -8,7 +8,7 @@ function nestedForLoops (depth, width = depth) {
   let result = "\n";
   
   // Write code here
-  if (!depth || !width ){
+  if (!depth || !width){
     return "";
   }
   if (typeof depth !== 'number'){
